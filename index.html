@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Task Manager</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="app">
+    <h1>🗓️ My Daily Tasks</h1>
+
+    <form id="task-form">
+      <input type="text" id="task-input" placeholder="Enter a task" required />
+      <input type="date" id="task-date" />
+      <button type="submit">Add Task</button>
+    </form>
+
+    <div id="stats">
+      <p>Total: <span id="total">0</span> | Done: <span id="done">0</span> | Pending: <span id="pending">0</span></p>
+    </div>
+
+    <ul id="task-list"></ul>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
