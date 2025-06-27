@@ -1,17 +1,23 @@
-body {
-  font-family: 'Segoe UI', sans-serif;
-  background: #f2f2f2;
-  margin: 0;
-  padding: 0;
-  display: flex;
-  justify-content: center;
-  padding-top: 50px;
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
 }
-
+:root {
+    --main-color: #9611ae;
+}
+body {
+    background-color: #A9C9FF;
+    background-image: linear-gradient(135deg, #A9C9FF 0%, #FFBBEC 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .app {
   background: #fff;
   padding: 2rem;
-  border-radius: 10px;
+  border-radius: 40px;
   width: 100%;
   max-width: 500px;
   box-shadow: 0 5px 15px rgba(0,0,0,0.1);
@@ -39,14 +45,14 @@ input[type="text"], input[type="date"] {
 button {
   padding: 10px 15px;
   border: none;
-  background: #28a745;
+  background: hsl(291, 84%, 44%);
   color: white;
   border-radius: 5px;
   cursor: pointer;
 }
 
 button:hover {
-  background: #218838;
+  background: #630358;
 }
 
 #stats {
@@ -89,11 +95,11 @@ button:hover {
 }
 
 .task .buttons .complete {
-  background: #007bff;
+  background: #e493cc;
   color: white;
 }
 
 .task .buttons .delete {
-  background: #dc3545;
+  background: #358edc;
   color: white;
 }
